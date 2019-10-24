@@ -6,15 +6,14 @@ https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout/Les_concepts_de_ba
 #basedelagrille{
     display: grid;
     /* configuration de la grille en 3 colonnes */
-    ??
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* positionnement du titre pour occuper toute une ligne */
 
 #titre{
-    grid-row: ?? ;
+    grid-column: 1 / 4;
 }
 
 /* positionnement des tuiles en 3x3 */
 
-??
